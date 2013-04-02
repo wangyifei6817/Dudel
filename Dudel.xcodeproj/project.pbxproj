@@ -18,6 +18,8 @@
 		D9775592170A7A0E00787121 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9775591170A7A0E00787121 /* Default-568h@2x.png */; };
 		D9775595170A7A0E00787121 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9775594170A7A0E00787121 /* ViewController.m */; };
 		D9775598170A7A0E00787121 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9775596170A7A0E00787121 /* ViewController.xib */; };
+		D97755A0170A7B5700787121 /* DudelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D977559F170A7B5700787121 /* DudelView.m */; };
+		D97755A5170ADD5E00787121 /* PencilTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D97755A4170ADD5E00787121 /* PencilTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,12 @@
 		D9775593170A7A0E00787121 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D9775594170A7A0E00787121 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D9775597170A7A0E00787121 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		D977559E170A7B5700787121 /* DudelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DudelView.h; sourceTree = "<group>"; };
+		D977559F170A7B5700787121 /* DudelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DudelView.m; sourceTree = "<group>"; };
+		D97755A1170A80FF00787121 /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		D97755A2170A840E00787121 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tool.h; path = ../Tool.h; sourceTree = "<group>"; };
+		D97755A3170ADD5E00787121 /* PencilTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PencilTool.h; sourceTree = "<group>"; };
+		D97755A4170ADD5E00787121 /* PencilTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PencilTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +97,12 @@
 				D9775594170A7A0E00787121 /* ViewController.m */,
 				D9775596170A7A0E00787121 /* ViewController.xib */,
 				D9775582170A7A0E00787121 /* Supporting Files */,
+				D977559E170A7B5700787121 /* DudelView.h */,
+				D977559F170A7B5700787121 /* DudelView.m */,
+				D97755A1170A80FF00787121 /* Drawable.h */,
+				D97755A2170A840E00787121 /* Tool.h */,
+				D97755A3170ADD5E00787121 /* PencilTool.h */,
+				D97755A4170ADD5E00787121 /* PencilTool.m */,
 			);
 			path = Dudel;
 			sourceTree = "<group>";
@@ -176,6 +190,8 @@
 				D9775588170A7A0E00787121 /* main.m in Sources */,
 				D977558C170A7A0E00787121 /* AppDelegate.m in Sources */,
 				D9775595170A7A0E00787121 /* ViewController.m in Sources */,
+				D97755A0170A7B5700787121 /* DudelView.m in Sources */,
+				D97755A5170ADD5E00787121 /* PencilTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +281,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dudel/Dudel-Prefix.pch";
 				INFOPLIST_FILE = "Dudel/Dudel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -276,6 +293,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dudel/Dudel-Prefix.pch";
 				INFOPLIST_FILE = "Dudel/Dudel-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -300,6 +318,7 @@
 				D977559D170A7A0E00787121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
